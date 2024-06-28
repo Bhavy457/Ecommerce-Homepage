@@ -1,0 +1,161 @@
+:root{
+    --primary : #131921;
+    --secondary : #232F3E;
+    --warning : #F3A847;
+    --info : #C5582D;
+}
+
+@font-face {
+    font-family: emberLight;
+    src: url('../../amazon_typefaces/Ember/AmazonEmber_Lt.ttf');
+}
+
+@font-face {
+    font-family: emberMedium;
+    src: url('../../amazon_typefaces/Ember/Amazon-Ember-Medium.ttf');
+}
+
+@font-face {
+    font-family: emberBold;
+    src: url('../../amazon_typefaces/Ember/AmazonEmber_Bd.ttf');
+}
+
+@font-face {
+    font-family: emberExtraBold;
+    src: url('../../amazon_typefaces/Ember/AmazonEmber_He.ttf');
+}
+
+@font-face {
+    font-family: emberNormal;
+    src: url('../../amazon_typefaces/Ember/AmazonEmber_Rg.ttf');
+}
+
+.bold-text{
+    font-family: emberBold;
+    color: #0F1111;
+}
+
+.medium-text{
+    font-family: emberMedium;
+    color: #0F1111;
+}
+
+.normal-text{
+    font-family: emberNormal;
+    color: #0F1111;
+}
+
+.extra-bold-text{
+    font-family: emberExtraBold;
+    color: #0F1111;
+}
+
+.h3{
+    font-family: emberMedium;
+    color: #0F1111;
+}
+
+.amz-fs-11{
+    font-size: 11px;
+}
+
+.amz-fs-12{
+    font-size: 12px;
+}
+
+.amz-fs-13{
+    font-size: 13px;
+}
+
+.amz-fs-14{
+    font-size: 14px;
+}
+
+.amazon-btn{
+    outline: 0;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: emberMedium;
+    color: black;
+    text-decoration: none;
+}
+
+.amz-btn-primary{
+    background-color: #F3CB65;
+    border: 1px solid #A88734;
+}
+
+.amz-btn-primary:hover{
+    background-color:#F1C44A;
+    color: black;
+}
+
+.amz-btn-secondary{
+    background-color: #F0F1F5;
+    border: 1px solid #A2A6AC;
+}
+
+.amz-btn-secondary:hover{
+    background-color:#E0E3E8;
+    color: black;
+}
+
+.amz-btn-dark{
+    background-color: #2F3333;
+    color: white;
+    border: 1px solid #0F1111;
+}
+
+.amz-btn-dark:hover{
+    background-color:#0F1111;
+    color: white;
+}
+
+.amz-input{
+    width: 100%;
+    font-size: 13px;
+    outline: none;
+    height: 2rem;
+    font-family: emberMedium;
+    padding : 0 0.5rem;
+}
+
+.amz-input:focus{
+    border: 2px solid var(--warning);
+}
+
+.amz-label{
+    font-family: emberBold;
+    color: black;
+    font-size: 13px;
+}
+
+.amz-breadcrumb{
+    font-family: emberMedium;
+    font-size: 15px;
+}
+
+.amz-breadcrumb-link{
+    text-decoration: none;
+}
+
+.amz-breadcrumb-link:hover{
+    text-decoration: underline;
+    color: var(--info);
+}
+
+.amz-breadcrumb-active{
+    font-family: emberMedium;
+    color: var(--info);
+}
+
+.amz-link{
+    text-decoration: none;
+    font-family: emberMedium;
+    font-size: 13px;
+}
+
+.amz-link:hover{
+    text-decoration: underline;
+    color: var(--info);
+}

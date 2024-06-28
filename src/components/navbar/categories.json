@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Best Sellers",
+        "subcategories": ["Novels", "Rig"]
+    },
+    {
+        "name": "Mobiles",
+        "subcategories": ["Smartphones", "Feature Phones", "Accessories"]
+    },
+    {
+        "name": "Customer Services",
+        "subcategories": ["Help", "Support"]
+    },
+    {
+        "name": "Today's Deals",
+        "subcategories": ["50% Off", "20% Off"]
+    },
+    {
+        "name": "Electronics",
+        "subcategories": ["Computers", "Cameras", "Headphones"]
+    },
+    {
+        "name": "Fashion",
+        "subcategories": ["Men", "Women", "Kids"]
+    },
+
+    {
+        "name": "Home & Kitchen",
+        "subcategories": ["Furniture", "Decor", "Appliances"]
+    }
+]
